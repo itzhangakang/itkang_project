@@ -5,17 +5,16 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
-import org.springframework.stereotype.Component;
 
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 /**
  * Redis工具类
- * @author wwh
+ * @author
  * @since 2018-03-06
  */
-@Component
+//@Component
 public class RedisUtils2 {
 	private static Logger logger = LoggerFactory.getLogger(RedisUtils2.class);
 

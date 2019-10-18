@@ -35,6 +35,10 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
@@ -58,7 +62,7 @@
             <version>2.9.7</version>
         </dependency>
         <!--
-            1.FastJson数度快,无论序列化和反序列化,都是当之无愧的fast
+            1.FastJson速度快,无论序列化和反序列化,都是当之无愧的fast
             2.功能强大(支持普通JDK类包括任意Java Bean Class、Collection、Map、Date或enum)
             3.零依赖(没有依赖其它任何类库)
         -->
