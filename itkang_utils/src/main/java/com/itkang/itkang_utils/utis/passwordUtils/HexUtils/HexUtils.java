@@ -1,4 +1,4 @@
-package com.itkang.itkang_utils.utis.HexUtils;
+package com.itkang.itkang_utils.utis.passwordUtils.HexUtils;
 
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.codec.digest.DigestUtils;

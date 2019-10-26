@@ -1,4 +1,4 @@
-package com.itkang.itkang_utils.utis.HexUtils;
+package com.itkang.itkang_utils.utis.passwordUtils.HexUtils;
 
 import org.springframework.security.authentication.encoding.Md5PasswordEncoder;
 import org.springframework.security.authentication.encoding.ShaPasswordEncoder;
